@@ -1,0 +1,807 @@
+Source,Target,Group,Weight,Weight_2018,Weight_2019,Weight_2020,Weight_2021,Weight_2022,Weight_2023,Weight_2024
+0,4,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+0,43,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+0,60,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+0,109,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+0,126,Collaborator-Collaborator,2,0,0,2,2,2,2,2
+0,132,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+0,140,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+0,144,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+0,153,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+0,194,Collaborator-Collaborator,2,0,0,2,2,2,2,2
+0,214,Doctoral Fellow-Collaborator,2,0,0,2,2,2,2,2
+0,223,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+1,2,Faculty-Collaborator,1,0,0,0,0,0,0,1
+1,61,Faculty-Faculty,1,0,0,0,0,0,0,1
+1,64,Faculty-Collaborator,1,0,1,1,1,1,1,1
+1,93,Faculty-Doctoral Fellow,1,0,1,1,1,1,1,1
+1,119,Faculty-Collaborator,1,0,1,1,1,1,1,1
+1,138,Faculty-Collaborator,1,0,1,1,1,1,1,1
+1,139,Faculty-Collaborator,1,0,1,1,1,1,1,1
+1,146,Faculty-Collaborator,1,0,1,1,1,1,1,1
+1,152,Faculty-Faculty,1,0,1,1,1,1,1,1
+1,201,Faculty-Collaborator,1,0,1,1,1,1,1,1
+1,228,Faculty-Affiliate Student,1,0,1,1,1,1,1,1
+2,61,Faculty-Collaborator,1,0,0,0,0,0,0,1
+3,15,Faculty-Collaborator,1,0,0,0,0,0,0,1
+3,63,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+3,79,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+3,133,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+3,141,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+3,155,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+3,214,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+3,222,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+4,43,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+4,60,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+4,126,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+4,153,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+4,194,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+4,214,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+4,223,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+5,74,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+5,95,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+5,148,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+5,160,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+5,177,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+5,216,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+5,227,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+6,30,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+6,68,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+6,135,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+6,147,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+6,203,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+6,232,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+7,23,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+7,24,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+7,27,Doctoral Fellow-Collaborator,2,0,0,0,2,2,2,2
+7,49,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+7,78,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+7,86,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+7,108,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+7,125,Faculty-Doctoral Fellow,2,0,0,0,2,2,2,2
+7,143,Faculty-Doctoral Fellow,1,0,0,1,1,1,1,1
+7,154,Doctoral Fellow-Collaborator,2,0,0,0,2,2,2,2
+7,206,Doctoral Fellow-Collaborator,2,0,0,0,2,2,2,2
+7,209,Doctoral Fellow-Doctoral Fellow,1,0,0,0,1,1,1,1
+7,228,Doctoral Fellow-Affiliate Student,2,0,0,0,2,2,2,2
+8,96,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+8,167,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+8,171,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+8,199,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+9,104,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+9,112,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+9,160,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+9,224,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+9,227,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+10,41,Affiliate Student-Collaborator,1,0,0,0,0,0,1,1
+10,163,Faculty-Collaborator,1,0,0,0,0,0,1,1
+11,22,Faculty-Affiliate Student,2,0,0,0,0,1,2,2
+11,48,Affiliate Student-Collaborator,1,1,1,1,1,1,1,1
+11,85,Affiliate Student-Collaborator,1,1,1,1,1,1,1,1
+11,192,Affiliate Student-Collaborator,1,1,1,1,1,1,1,1
+11,238,Affiliate Student-Collaborator,1,0,0,0,0,0,1,1
+12,54,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+12,62,Faculty-Collaborator,1,0,0,0,0,0,0,1
+12,150,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+12,158,Faculty-Collaborator,1,0,0,0,0,0,0,1
+13,52,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+13,115,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+13,187,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+13,230,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+14,88,Faculty-Faculty,1,0,0,0,0,0,1,1
+14,196,Faculty-Collaborator,1,0,0,0,0,0,1,1
+15,57,Faculty-Affiliate Student,1,0,1,1,1,1,1,1
+15,63,Faculty-Collaborator,1,0,0,0,0,0,0,1
+15,79,Faculty-Collaborator,1,0,0,0,0,0,0,1
+15,133,Faculty-Collaborator,1,0,0,0,0,0,0,1
+15,134,Faculty-Faculty,3,0,1,2,2,3,3,3
+15,141,Faculty-Collaborator,1,0,0,0,0,0,0,1
+15,145,Faculty-Collaborator,1,0,0,0,0,1,1,1
+15,155,Faculty-Doctoral Fellow,1,0,0,0,0,0,0,1
+15,156,Faculty-Faculty,1,0,0,1,1,1,1,1
+15,184,Faculty-Collaborator,2,0,0,1,1,2,2,2
+15,193,Faculty-Faculty,1,0,0,1,1,1,1,1
+15,204,Faculty-Collaborator,2,0,1,2,2,2,2,2
+15,214,Faculty-Doctoral Fellow,3,0,0,1,1,2,2,3
+15,222,Faculty-Collaborator,1,0,0,0,0,0,0,1
+16,18,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+16,25,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+16,26,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+16,44,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+16,91,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+16,128,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+16,170,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+16,186,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+16,210,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+16,229,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+17,34,Doctoral Fellow-Affiliate Student,1,0,0,1,1,1,1,1
+17,88,Faculty-Doctoral Fellow,1,0,0,1,1,1,1,1
+18,25,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+18,26,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+18,44,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+18,91,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+18,128,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+18,170,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+18,186,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+18,210,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+18,229,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+19,31,Faculty-Collaborator,1,0,0,0,0,0,1,1
+19,38,Faculty-Collaborator,1,0,0,0,0,1,1,1
+19,45,Faculty-Collaborator,1,0,0,0,0,1,1,1
+19,55,Faculty-Collaborator,1,0,0,0,0,1,1,1
+19,59,Faculty-Collaborator,3,0,0,0,0,1,2,3
+19,65,Faculty-Collaborator,1,0,0,0,1,1,1,1
+19,75,Faculty-Collaborator,1,0,0,0,0,0,0,1
+19,90,Faculty-Collaborator,1,0,0,0,0,1,1,1
+19,94,Faculty-Collaborator,1,0,0,0,0,0,1,1
+19,127,Faculty-Doctoral Fellow,2,0,0,0,0,1,1,2
+19,155,Faculty-Doctoral Fellow,2,0,0,0,1,2,2,2
+19,193,Faculty-Faculty,3,0,0,0,1,2,3,3
+19,202,Faculty-Doctoral Fellow,2,0,0,0,0,1,2,2
+20,69,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+20,72,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+20,99,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+20,100,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+20,111,Faculty-Collaborator,1,0,0,0,1,1,1,1
+20,128,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+20,162,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+21,37,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+21,56,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+21,58,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+21,71,Collaborator-Collaborator,2,0,0,0,1,1,2,2
+21,80,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+21,93,Doctoral Fellow-Collaborator,1,0,0,0,0,0,1,1
+21,205,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+21,217,Collaborator-Collaborator,2,0,0,0,1,1,2,2
+22,41,Faculty-Affiliate Student,1,0,0,1,1,1,1,1
+22,53,Faculty-Doctoral Fellow,1,0,0,0,0,0,1,1
+22,163,Faculty-Faculty,1,0,0,1,1,1,1,1
+22,212,Faculty-Collaborator,1,0,0,0,0,0,1,1
+22,218,Faculty-Collaborator,1,0,0,0,0,0,1,1
+22,225,Faculty-Collaborator,1,0,0,1,1,1,1,1
+22,238,Faculty-Collaborator,1,0,0,0,0,0,1,1
+23,27,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+23,49,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+23,108,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+23,125,Faculty-Collaborator,1,0,0,0,1,1,1,1
+23,154,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+23,206,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+23,209,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+23,228,Affiliate Student-Collaborator,1,0,0,0,1,1,1,1
+24,78,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+24,143,Faculty-Collaborator,1,0,0,1,1,1,1,1
+25,26,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+25,44,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+25,91,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+25,128,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+25,170,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+25,186,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+25,210,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+25,229,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+26,44,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+26,91,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+26,128,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+26,170,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+26,186,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+26,210,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+26,229,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+27,49,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+27,86,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+27,108,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+27,125,Faculty-Collaborator,2,0,0,0,2,2,2,2
+27,154,Collaborator-Collaborator,2,0,0,0,2,2,2,2
+27,206,Collaborator-Collaborator,2,0,0,0,2,2,2,2
+27,209,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+27,228,Affiliate Student-Collaborator,2,0,0,0,2,2,2,2
+28,92,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+28,101,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+28,111,Faculty-Collaborator,1,0,0,0,0,0,0,1
+28,128,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+29,32,Faculty-Collaborator,1,0,1,1,1,1,1,1
+29,70,Collaborator-Collaborator,1,0,1,1,1,1,1,1
+30,68,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+30,135,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+30,147,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+30,203,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+30,232,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+31,59,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+31,94,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+31,193,Faculty-Collaborator,1,0,0,0,0,0,1,1
+31,202,Doctoral Fellow-Collaborator,1,0,0,0,0,0,1,1
+32,41,Faculty-Affiliate Student,2,0,0,0,1,1,2,2
+32,47,Faculty-Collaborator,1,0,0,1,1,1,1,1
+32,66,Faculty-Collaborator,1,0,0,1,1,1,1,1
+32,70,Faculty-Collaborator,1,0,1,1,1,1,1,1
+32,82,Faculty-Collaborator,1,0,0,1,1,1,1,1
+32,113,Faculty-Collaborator,1,1,1,1,1,1,1,1
+32,129,Faculty-Collaborator,2,0,0,0,1,1,2,2
+32,130,Faculty-Faculty,2,0,1,1,2,2,2,2
+32,131,Faculty-Affiliate Student,2,0,0,0,1,1,2,2
+32,163,Faculty-Faculty,2,0,0,0,1,1,2,2
+32,168,Faculty-Collaborator,1,1,1,1,1,1,1,1
+32,175,Faculty-Collaborator,1,0,0,0,1,1,1,1
+32,185,Faculty-Collaborator,2,0,0,0,1,1,2,2
+32,188,Faculty-Collaborator,1,0,0,0,1,1,1,1
+32,195,Faculty-Collaborator,1,1,1,1,1,1,1,1
+32,198,Faculty-Collaborator,1,0,0,1,1,1,1,1
+32,207,Faculty-Collaborator,1,0,0,0,1,1,1,1
+32,208,Faculty-Collaborator,1,1,1,1,1,1,1,1
+32,211,Faculty-Collaborator,1,1,1,1,1,1,1,1
+32,236,Faculty-Collaborator,1,1,1,1,1,1,1,1
+33,41,Affiliate Student-Collaborator,1,0,0,0,0,0,0,1
+33,102,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+33,120,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+33,163,Faculty-Collaborator,1,0,0,0,0,0,0,1
+33,200,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+33,213,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+34,88,Faculty-Affiliate Student,2,0,0,2,2,2,2,2
+35,126,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+35,166,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+35,194,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+35,214,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+36,61,Faculty-Collaborator,1,0,0,0,0,1,1,1
+36,121,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+36,137,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+36,158,Faculty-Collaborator,1,0,0,0,0,1,1,1
+37,56,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+37,71,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+37,93,Doctoral Fellow-Collaborator,1,0,0,0,0,0,1,1
+37,217,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+38,45,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+38,55,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+38,59,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+38,90,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+38,127,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+38,155,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+38,193,Faculty-Collaborator,1,0,0,0,0,1,1,1
+38,202,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+39,61,Faculty-Collaborator,1,1,1,1,1,1,1,1
+39,125,Faculty-Collaborator,1,1,1,1,1,1,1,1
+39,180,Collaborator-Collaborator,1,1,1,1,1,1,1,1
+39,215,Collaborator-Collaborator,1,1,1,1,1,1,1,1
+39,228,Affiliate Student-Collaborator,1,1,1,1,1,1,1,1
+40,52,Doctoral Fellow-Collaborator,1,1,1,1,1,1,1,1
+40,190,Collaborator-Collaborator,1,1,1,1,1,1,1,1
+41,67,Affiliate Student-Collaborator,2,1,1,1,2,2,2,2
+41,102,Affiliate Student-Collaborator,1,0,0,0,0,0,0,1
+41,120,Affiliate Student-Collaborator,2,0,1,1,1,1,1,2
+41,129,Affiliate Student-Collaborator,2,0,0,0,1,1,2,2
+41,131,Affiliate Student-Affiliate Student,2,0,0,0,1,1,2,2
+41,163,Faculty-Affiliate Student,9,1,2,3,6,6,8,9
+41,185,Affiliate Student-Collaborator,2,0,0,0,1,1,2,2
+41,189,Affiliate Student-Collaborator,1,0,0,0,1,1,1,1
+41,200,Affiliate Student-Collaborator,1,0,0,0,0,0,0,1
+41,213,Affiliate Student-Collaborator,1,0,0,0,0,0,0,1
+41,220,Doctoral Fellow-Affiliate Student,2,1,1,1,2,2,2,2
+41,225,Affiliate Student-Collaborator,1,0,0,1,1,1,1,1
+41,237,Affiliate Student-Collaborator,1,0,1,1,1,1,1,1
+42,116,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+42,163,Faculty-Collaborator,1,0,0,0,0,0,1,1
+42,169,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+43,60,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+43,126,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+43,153,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+43,194,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+43,214,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+43,223,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+44,91,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+44,128,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+44,170,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+44,186,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+44,210,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+44,229,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+45,55,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+45,59,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+45,90,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+45,127,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+45,155,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+45,193,Faculty-Collaborator,1,0,0,0,0,1,1,1
+45,202,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+46,172,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+46,173,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+46,193,Faculty-Collaborator,1,0,0,0,0,0,1,1
+46,214,Doctoral Fellow-Collaborator,1,0,0,0,0,0,1,1
+47,66,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+47,82,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+47,198,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+48,85,Collaborator-Collaborator,1,1,1,1,1,1,1,1
+48,192,Collaborator-Collaborator,1,1,1,1,1,1,1,1
+49,108,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+49,125,Faculty-Collaborator,1,0,0,0,1,1,1,1
+49,154,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+49,206,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+49,209,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+49,228,Affiliate Student-Collaborator,1,0,0,0,1,1,1,1
+50,149,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+50,193,Faculty-Collaborator,1,0,0,0,1,1,1,1
+50,214,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+51,111,Faculty-Collaborator,1,0,0,0,1,1,1,1
+51,128,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+52,87,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+52,115,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+52,164,Faculty-Doctoral Fellow,1,0,0,0,0,1,1,1
+52,187,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+52,190,Doctoral Fellow-Collaborator,1,1,1,1,1,1,1,1
+52,227,Doctoral Fellow-Doctoral Fellow,1,0,0,0,0,1,1,1
+52,230,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+53,73,Faculty-Doctoral Fellow,1,0,0,0,0,1,1,1
+53,212,Doctoral Fellow-Collaborator,1,0,0,0,0,0,1,1
+53,218,Doctoral Fellow-Collaborator,1,0,0,0,0,0,1,1
+54,62,Faculty-Collaborator,1,0,0,0,0,0,0,1
+54,150,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+54,158,Faculty-Collaborator,1,0,0,0,0,0,0,1
+55,59,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+55,90,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+55,127,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+55,155,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+55,193,Faculty-Collaborator,1,0,0,0,0,1,1,1
+55,202,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+56,71,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+56,93,Doctoral Fellow-Collaborator,1,0,0,0,0,0,1,1
+56,217,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+57,134,Faculty-Affiliate Student,1,0,1,1,1,1,1,1
+57,204,Affiliate Student-Collaborator,1,0,1,1,1,1,1,1
+58,71,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+58,80,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+58,205,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+58,217,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+59,75,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+59,76,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+59,90,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+59,94,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+59,127,Doctoral Fellow-Collaborator,2,0,0,0,0,1,1,2
+59,155,Doctoral Fellow-Collaborator,4,0,0,0,0,1,4,4
+59,176,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+59,193,Faculty-Collaborator,5,0,0,0,0,1,5,5
+59,202,Doctoral Fellow-Collaborator,2,0,0,0,0,1,2,2
+59,214,Doctoral Fellow-Collaborator,3,0,0,0,0,0,3,3
+60,126,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+60,153,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+60,194,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+60,214,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+60,223,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+61,86,Faculty-Collaborator,1,0,0,0,1,1,1,1
+61,121,Faculty-Collaborator,1,0,0,0,0,1,1,1
+61,125,Faculty-Faculty,2,1,1,1,2,2,2,2
+61,137,Faculty-Collaborator,1,0,0,0,0,1,1,1
+61,142,Faculty-Collaborator,1,0,0,0,1,1,1,1
+61,158,Faculty-Faculty,1,0,0,0,0,1,1,1
+61,180,Faculty-Collaborator,1,1,1,1,1,1,1,1
+61,206,Faculty-Collaborator,1,0,0,0,1,1,1,1
+61,209,Faculty-Doctoral Fellow,1,0,0,0,1,1,1,1
+61,215,Faculty-Collaborator,1,1,1,1,1,1,1,1
+61,228,Faculty-Affiliate Student,1,1,1,1,1,1,1,1
+62,150,Faculty-Collaborator,2,0,0,0,0,0,1,2
+62,158,Faculty-Faculty,2,0,0,0,0,0,1,2
+62,159,Faculty-Doctoral Fellow,1,0,0,0,0,0,1,1
+63,79,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+63,133,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+63,141,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+63,155,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+63,214,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+63,222,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+64,93,Doctoral Fellow-Collaborator,1,0,1,1,1,1,1,1
+64,119,Collaborator-Collaborator,1,0,1,1,1,1,1,1
+64,138,Collaborator-Collaborator,1,0,1,1,1,1,1,1
+64,139,Collaborator-Collaborator,1,0,1,1,1,1,1,1
+64,146,Collaborator-Collaborator,1,0,1,1,1,1,1,1
+64,152,Faculty-Collaborator,1,0,1,1,1,1,1,1
+64,201,Collaborator-Collaborator,1,0,1,1,1,1,1,1
+64,228,Affiliate Student-Collaborator,1,0,1,1,1,1,1,1
+65,155,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+65,193,Faculty-Collaborator,1,0,0,0,1,1,1,1
+66,82,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+66,198,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+67,163,Faculty-Collaborator,2,1,1,1,2,2,2,2
+67,220,Doctoral Fellow-Collaborator,2,1,1,1,2,2,2,2
+68,135,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+68,147,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+68,203,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+68,232,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+69,72,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+69,99,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+69,100,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+69,111,Faculty-Collaborator,1,0,0,0,1,1,1,1
+69,128,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+69,162,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+71,80,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+71,93,Doctoral Fellow-Collaborator,1,0,0,0,0,0,1,1
+71,205,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+71,217,Collaborator-Collaborator,2,0,0,0,1,1,2,2
+72,99,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+72,100,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+72,111,Faculty-Collaborator,1,0,0,0,1,1,1,1
+72,128,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+72,162,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+74,95,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+74,148,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+74,160,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+74,177,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+74,216,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+74,227,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+75,127,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+76,155,Doctoral Fellow-Collaborator,1,0,0,0,0,0,1,1
+76,193,Faculty-Collaborator,1,0,0,0,0,0,1,1
+76,214,Doctoral Fellow-Collaborator,1,0,0,0,0,0,1,1
+77,93,Doctoral Fellow-Collaborator,1,0,0,0,0,0,1,1
+77,152,Faculty-Collaborator,1,0,0,0,0,0,1,1
+78,143,Faculty-Collaborator,1,0,0,1,1,1,1,1
+79,133,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+79,141,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+79,155,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+79,214,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+79,222,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+80,182,Faculty-Doctoral Fellow,1,0,0,0,0,0,1,1
+80,205,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+80,217,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+81,111,Faculty-Collaborator,1,0,1,1,1,1,1,1
+81,128,Doctoral Fellow-Collaborator,1,0,1,1,1,1,1,1
+81,221,Collaborator-Collaborator,1,0,1,1,1,1,1,1
+82,198,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+83,96,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+83,171,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+84,214,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+85,192,Collaborator-Collaborator,1,1,1,1,1,1,1,1
+86,125,Faculty-Collaborator,2,0,0,0,2,2,2,2
+86,142,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+86,154,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+86,206,Collaborator-Collaborator,2,0,0,0,2,2,2,2
+86,209,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+86,228,Affiliate Student-Collaborator,1,0,0,0,1,1,1,1
+87,164,Faculty-Collaborator,1,0,0,0,0,1,1,1
+87,227,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+88,110,Faculty-Affiliate Student,1,0,0,1,1,1,1,1
+88,127,Faculty-Doctoral Fellow,2,0,0,0,0,1,2,2
+88,178,Faculty-Collaborator,2,0,0,0,0,1,2,2
+88,196,Faculty-Collaborator,1,0,0,0,0,0,1,1
+88,205,Faculty-Collaborator,1,0,0,1,1,1,1,1
+89,106,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+89,109,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+89,117,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+89,123,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+89,165,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+89,197,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+89,214,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+90,127,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+90,155,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+90,193,Faculty-Collaborator,1,0,0,0,0,1,1,1
+90,202,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+91,128,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+91,170,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+91,186,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+91,210,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+91,229,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+92,101,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+92,111,Faculty-Collaborator,1,0,0,0,0,0,0,1
+92,128,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+93,119,Doctoral Fellow-Collaborator,1,0,1,1,1,1,1,1
+93,138,Doctoral Fellow-Collaborator,1,0,1,1,1,1,1,1
+93,139,Doctoral Fellow-Collaborator,1,0,1,1,1,1,1,1
+93,146,Doctoral Fellow-Collaborator,1,0,1,1,1,1,1,1
+93,152,Faculty-Doctoral Fellow,2,0,1,1,1,1,2,2
+93,201,Doctoral Fellow-Collaborator,1,0,1,1,1,1,1,1
+93,214,Doctoral Fellow-Doctoral Fellow,1,0,0,0,0,1,1,1
+93,217,Doctoral Fellow-Collaborator,1,0,0,0,0,0,1,1
+93,228,Doctoral Fellow-Affiliate Student,1,0,1,1,1,1,1,1
+94,193,Faculty-Collaborator,1,0,0,0,0,0,1,1
+94,202,Doctoral Fellow-Collaborator,1,0,0,0,0,0,1,1
+95,148,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+95,160,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+95,177,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+95,216,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+95,227,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+96,167,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+96,171,Doctoral Fellow-Collaborator,2,0,0,1,1,2,2,2
+96,199,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+97,107,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+97,124,Faculty-Collaborator,1,0,0,0,0,1,1,1
+98,161,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+98,174,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+98,191,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+98,232,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+99,100,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+99,111,Faculty-Collaborator,1,0,0,0,1,1,1,1
+99,128,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+99,162,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+100,111,Faculty-Collaborator,1,0,0,0,1,1,1,1
+100,128,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+100,162,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+101,111,Faculty-Collaborator,1,0,0,0,0,0,0,1
+101,128,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+102,120,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+102,163,Faculty-Collaborator,1,0,0,0,0,0,0,1
+102,200,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+102,213,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+103,136,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+103,157,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+103,163,Faculty-Collaborator,1,0,0,1,1,1,1,1
+103,181,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+103,183,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+103,219,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+103,226,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+103,231,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+103,233,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+103,234,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+104,112,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+104,160,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+104,224,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+104,227,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+105,151,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+105,227,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+105,235,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+106,109,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+106,117,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+106,123,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+106,165,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+106,197,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+106,214,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+107,124,Faculty-Collaborator,1,0,0,0,0,1,1,1
+108,125,Faculty-Collaborator,1,0,0,0,1,1,1,1
+108,154,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+108,206,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+108,209,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+108,228,Affiliate Student-Collaborator,1,0,0,0,1,1,1,1
+109,117,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+109,123,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+109,126,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+109,132,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+109,140,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+109,144,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+109,165,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+109,194,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+109,197,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+109,214,Doctoral Fellow-Collaborator,2,0,0,1,1,2,2,2
+110,205,Affiliate Student-Collaborator,1,0,0,1,1,1,1,1
+111,128,Faculty-Doctoral Fellow,4,0,1,1,3,3,3,4
+111,162,Faculty-Collaborator,1,0,0,0,1,1,1,1
+111,221,Faculty-Collaborator,1,0,1,1,1,1,1,1
+112,160,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+112,224,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+112,227,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+113,211,Collaborator-Collaborator,1,1,1,1,1,1,1,1
+113,236,Collaborator-Collaborator,1,1,1,1,1,1,1,1
+114,118,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+114,163,Faculty-Collaborator,1,0,0,0,0,1,1,1
+115,187,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+115,230,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+116,163,Faculty-Collaborator,1,0,0,0,0,0,1,1
+116,169,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+117,123,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+117,165,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+117,197,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+117,214,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+118,163,Faculty-Collaborator,1,0,0,0,0,1,1,1
+119,138,Collaborator-Collaborator,1,0,1,1,1,1,1,1
+119,139,Collaborator-Collaborator,1,0,1,1,1,1,1,1
+119,146,Collaborator-Collaborator,1,0,1,1,1,1,1,1
+119,152,Faculty-Collaborator,1,0,1,1,1,1,1,1
+119,201,Collaborator-Collaborator,1,0,1,1,1,1,1,1
+119,228,Affiliate Student-Collaborator,1,0,1,1,1,1,1,1
+120,163,Faculty-Collaborator,2,0,1,1,1,1,1,2
+120,200,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+120,213,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+120,237,Collaborator-Collaborator,1,0,1,1,1,1,1,1
+121,137,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+121,158,Faculty-Collaborator,1,0,0,0,0,1,1,1
+123,165,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+123,197,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+123,214,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+125,142,Faculty-Collaborator,1,0,0,0,1,1,1,1
+125,154,Faculty-Collaborator,2,0,0,0,2,2,2,2
+125,179,Faculty-Faculty,1,0,0,0,1,1,1,1
+125,180,Faculty-Collaborator,1,1,1,1,1,1,1,1
+125,206,Faculty-Collaborator,3,0,0,0,3,3,3,3
+125,209,Faculty-Doctoral Fellow,2,0,0,0,2,2,2,2
+125,215,Faculty-Collaborator,1,1,1,1,1,1,1,1
+125,227,Faculty-Doctoral Fellow,1,0,0,0,1,1,1,1
+125,228,Faculty-Affiliate Student,4,1,1,1,4,4,4,4
+126,132,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+126,140,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+126,144,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+126,153,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+126,166,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+126,194,Collaborator-Collaborator,3,0,0,3,3,3,3,3
+126,214,Doctoral Fellow-Collaborator,3,0,0,3,3,3,3,3
+126,223,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+127,155,Doctoral Fellow-Doctoral Fellow,1,0,0,0,0,1,1,1
+127,178,Doctoral Fellow-Collaborator,2,0,0,0,0,1,2,2
+127,193,Faculty-Doctoral Fellow,1,0,0,0,0,1,1,1
+127,202,Doctoral Fellow-Doctoral Fellow,1,0,0,0,0,1,1,1
+128,162,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+128,170,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+128,186,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+128,210,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+128,221,Doctoral Fellow-Collaborator,1,0,1,1,1,1,1,1
+128,229,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+129,131,Affiliate Student-Collaborator,2,0,0,0,1,1,2,2
+129,163,Faculty-Collaborator,2,0,0,0,1,1,2,2
+129,185,Collaborator-Collaborator,2,0,0,0,1,1,2,2
+130,188,Faculty-Collaborator,1,0,0,0,1,1,1,1
+131,163,Faculty-Affiliate Student,2,0,0,0,1,1,2,2
+131,185,Affiliate Student-Collaborator,2,0,0,0,1,1,2,2
+132,140,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+132,144,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+132,194,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+132,214,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+133,141,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+133,155,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+133,214,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+133,222,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+134,145,Faculty-Collaborator,1,0,0,0,0,1,1,1
+134,184,Faculty-Collaborator,2,0,0,1,1,2,2,2
+134,204,Faculty-Collaborator,2,0,1,2,2,2,2,2
+134,214,Faculty-Doctoral Fellow,1,0,0,0,0,1,1,1
+135,147,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+135,203,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+135,232,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+136,157,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+136,163,Faculty-Collaborator,1,0,0,1,1,1,1,1
+136,181,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+136,183,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+136,219,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+136,226,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+136,231,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+136,233,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+136,234,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+137,158,Faculty-Collaborator,1,0,0,0,0,1,1,1
+138,139,Collaborator-Collaborator,1,0,1,1,1,1,1,1
+138,146,Collaborator-Collaborator,1,0,1,1,1,1,1,1
+138,152,Faculty-Collaborator,1,0,1,1,1,1,1,1
+138,201,Collaborator-Collaborator,1,0,1,1,1,1,1,1
+138,228,Affiliate Student-Collaborator,1,0,1,1,1,1,1,1
+139,146,Collaborator-Collaborator,1,0,1,1,1,1,1,1
+139,152,Faculty-Collaborator,1,0,1,1,1,1,1,1
+139,201,Collaborator-Collaborator,1,0,1,1,1,1,1,1
+139,228,Affiliate Student-Collaborator,1,0,1,1,1,1,1,1
+140,144,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+140,194,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+140,214,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+141,155,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+141,214,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+141,222,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+142,206,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+142,209,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+144,194,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+144,214,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+145,184,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+145,214,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+146,152,Faculty-Collaborator,1,0,1,1,1,1,1,1
+146,201,Collaborator-Collaborator,1,0,1,1,1,1,1,1
+146,228,Affiliate Student-Collaborator,1,0,1,1,1,1,1,1
+147,203,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+147,232,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+148,160,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+148,177,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+148,216,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+148,227,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+149,193,Faculty-Collaborator,1,0,0,0,1,1,1,1
+149,214,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+150,158,Faculty-Collaborator,2,0,0,0,0,0,1,2
+150,159,Doctoral Fellow-Collaborator,1,0,0,0,0,0,1,1
+151,227,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+151,235,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+152,201,Faculty-Collaborator,1,0,1,1,1,1,1,1
+152,228,Faculty-Affiliate Student,1,0,1,1,1,1,1,1
+153,194,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+153,214,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+153,223,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+154,206,Collaborator-Collaborator,2,0,0,0,2,2,2,2
+154,209,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+154,228,Affiliate Student-Collaborator,2,0,0,0,2,2,2,2
+155,176,Doctoral Fellow-Collaborator,1,0,0,0,0,0,1,1
+155,193,Faculty-Doctoral Fellow,5,0,0,0,1,2,5,5
+155,202,Doctoral Fellow-Doctoral Fellow,1,0,0,0,0,1,1,1
+155,214,Doctoral Fellow-Doctoral Fellow,4,0,0,0,0,0,3,4
+155,222,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+156,193,Faculty-Faculty,1,0,0,1,1,1,1,1
+156,214,Faculty-Doctoral Fellow,1,0,0,1,1,1,1,1
+157,163,Faculty-Collaborator,1,0,0,1,1,1,1,1
+157,181,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+157,183,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+157,219,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+157,226,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+157,231,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+157,233,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+157,234,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+158,159,Faculty-Doctoral Fellow,1,0,0,0,0,0,1,1
+160,177,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+160,216,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+160,224,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+160,227,Doctoral Fellow-Collaborator,2,0,0,0,1,2,2,2
+161,174,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+161,191,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+161,232,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+163,169,Faculty-Collaborator,1,0,0,0,0,0,1,1
+163,181,Faculty-Collaborator,1,0,0,1,1,1,1,1
+163,183,Faculty-Collaborator,1,0,0,1,1,1,1,1
+163,185,Faculty-Collaborator,2,0,0,0,1,1,2,2
+163,189,Faculty-Collaborator,1,0,0,0,1,1,1,1
+163,200,Faculty-Collaborator,1,0,0,0,0,0,0,1
+163,213,Faculty-Collaborator,1,0,0,0,0,0,0,1
+163,219,Faculty-Collaborator,1,0,0,1,1,1,1,1
+163,220,Faculty-Doctoral Fellow,2,1,1,1,2,2,2,2
+163,225,Faculty-Collaborator,1,0,0,1,1,1,1,1
+163,226,Faculty-Collaborator,1,0,0,1,1,1,1,1
+163,231,Faculty-Collaborator,1,0,0,1,1,1,1,1
+163,233,Faculty-Collaborator,1,0,0,1,1,1,1,1
+163,234,Faculty-Collaborator,1,0,0,1,1,1,1,1
+163,237,Faculty-Collaborator,1,0,1,1,1,1,1,1
+164,227,Faculty-Doctoral Fellow,1,0,0,0,0,1,1,1
+165,197,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+165,214,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+166,194,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+166,214,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+167,171,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+167,199,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+168,195,Collaborator-Collaborator,1,1,1,1,1,1,1,1
+168,208,Collaborator-Collaborator,1,1,1,1,1,1,1,1
+170,186,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+170,210,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+170,229,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+171,199,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+172,173,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+172,193,Faculty-Collaborator,1,0,0,0,0,0,1,1
+172,214,Doctoral Fellow-Collaborator,1,0,0,0,0,0,1,1
+173,193,Faculty-Collaborator,1,0,0,0,0,0,1,1
+173,214,Doctoral Fellow-Collaborator,1,0,0,0,0,0,1,1
+174,191,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+174,232,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+175,207,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+176,193,Faculty-Collaborator,1,0,0,0,0,0,1,1
+176,214,Doctoral Fellow-Collaborator,1,0,0,0,0,0,1,1
+177,216,Collaborator-Collaborator,1,0,0,0,0,1,1,1
+177,227,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+179,227,Faculty-Doctoral Fellow,1,0,0,0,1,1,1,1
+179,228,Faculty-Affiliate Student,1,0,0,0,1,1,1,1
+180,215,Collaborator-Collaborator,1,1,1,1,1,1,1,1
+180,228,Affiliate Student-Collaborator,1,1,1,1,1,1,1,1
+181,183,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+181,219,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+181,226,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+181,231,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+181,233,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+181,234,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+183,219,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+183,226,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+183,231,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+183,233,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+183,234,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+184,204,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+184,214,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+186,210,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+186,229,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+187,230,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+191,232,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+193,202,Faculty-Doctoral Fellow,2,0,0,0,0,1,2,2
+193,214,Faculty-Doctoral Fellow,7,0,0,1,2,3,7,7
+194,214,Doctoral Fellow-Collaborator,3,0,0,3,3,3,3,3
+194,223,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+195,208,Collaborator-Collaborator,1,1,1,1,1,1,1,1
+197,214,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+200,213,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+201,228,Affiliate Student-Collaborator,1,0,1,1,1,1,1,1
+203,232,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+205,217,Collaborator-Collaborator,1,0,0,0,1,1,1,1
+206,209,Doctoral Fellow-Collaborator,2,0,0,0,2,2,2,2
+206,228,Affiliate Student-Collaborator,2,0,0,0,2,2,2,2
+209,228,Doctoral Fellow-Affiliate Student,1,0,0,0,1,1,1,1
+210,229,Collaborator-Collaborator,1,0,0,0,0,0,0,1
+211,236,Collaborator-Collaborator,1,1,1,1,1,1,1,1
+212,218,Collaborator-Collaborator,1,0,0,0,0,0,1,1
+214,222,Doctoral Fellow-Collaborator,1,0,0,0,0,0,0,1
+214,223,Doctoral Fellow-Collaborator,1,0,0,1,1,1,1,1
+215,228,Affiliate Student-Collaborator,1,1,1,1,1,1,1,1
+216,227,Doctoral Fellow-Collaborator,1,0,0,0,0,1,1,1
+219,226,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+219,231,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+219,233,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+219,234,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+224,227,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+226,231,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+226,233,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+226,234,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+227,228,Doctoral Fellow-Affiliate Student,1,0,0,0,1,1,1,1
+227,235,Doctoral Fellow-Collaborator,1,0,0,0,1,1,1,1
+231,233,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+231,234,Collaborator-Collaborator,1,0,0,1,1,1,1,1
+233,234,Collaborator-Collaborator,1,0,0,1,1,1,1,1

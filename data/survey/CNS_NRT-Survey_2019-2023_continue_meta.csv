@@ -1,0 +1,103 @@
+"Variable","Label","ImportJSON"
+"Year","Year","Year"
+"Role","Role","Role"
+"RecordedDate","Recorded Date","{""ImportId"":""recordedDate"",""timeZone"":""America/New_York""}"
+"ResponseId","Response ID","{""ImportId"":""_recordId""}"
+"Progress","Progress","{""ImportId"":""progress""}"
+"Remove","Remove","Remove"
+"Q159_0_GROUP","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Groups - Continue as is","{""ImportId"":""QID160_0_GROUP""}"
+"Q159_1_GROUP","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Groups - Adapt","{""ImportId"":""QID160_1_GROUP""}"
+"Q159_2_GROUP","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Groups - Drop","{""ImportId"":""QID160_2_GROUP""}"
+"Q159_0_1_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Continue as is - Colloquium series - Rank","{""ImportId"":""QID160_G0_1_RANK""}"
+"Q159_0_2_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Continue as is - Research showcase - Rank","{""ImportId"":""QID160_G0_2_RANK""}"
+"Q159_0_3_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Continue as is - Affiliate style summer research opportunities - Rank","{""ImportId"":""QID160_G0_3_RANK""}"
+"Q159_0_4_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Continue as is - CNS dual-degree doctoral programs - Rank","{""ImportId"":""QID160_G0_4_RANK""}"
+"Q159_0_5_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Continue as is - Interdisciplinary mentorships - Rank","{""ImportId"":""QID160_G0_5_RANK""}"
+"Q159_0_6_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Continue as is - Interdisciplinary skills training opportunities - Rank","{""ImportId"":""QID160_G0_6_RANK""}"
+"Q159_0_7_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Continue as is - CNS research skills training opportunities - Rank","{""ImportId"":""QID160_G0_7_RANK""}"
+"Q159_1_1_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Adapt - Colloquium series - Rank","{""ImportId"":""QID160_G1_1_RANK""}"
+"Q159_1_2_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Adapt - Research showcase - Rank","{""ImportId"":""QID160_G1_2_RANK""}"
+"Q159_1_3_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Adapt - Affiliate style summer research opportunities - Rank","{""ImportId"":""QID160_G1_3_RANK""}"
+"Q159_1_4_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Adapt - CNS dual-degree doctoral programs - Rank","{""ImportId"":""QID160_G1_4_RANK""}"
+"Q159_1_5_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Adapt - Interdisciplinary mentorships - Rank","{""ImportId"":""QID160_G1_5_RANK""}"
+"Q159_1_6_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Adapt - Interdisciplinary skills training opportunities - Rank","{""ImportId"":""QID160_G1_6_RANK""}"
+"Q159_1_7_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Adapt - CNS research skills training opportunities - Rank","{""ImportId"":""QID160_G1_7_RANK""}"
+"Q159_2_1_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Drop - Colloquium series - Rank","{""ImportId"":""QID160_G2_1_RANK""}"
+"Q159_2_2_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Drop - Research showcase - Rank","{""ImportId"":""QID160_G2_2_RANK""}"
+"Q159_2_3_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Drop - Affiliate style summer research opportunities - Rank","{""ImportId"":""QID160_G2_3_RANK""}"
+"Q159_2_4_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Drop - CNS dual-degree doctoral programs - Rank","{""ImportId"":""QID160_G2_4_RANK""}"
+"Q159_2_5_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Drop - Interdisciplinary mentorships - Rank","{""ImportId"":""QID160_G2_5_RANK""}"
+"Q159_2_6_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Drop - Interdisciplinary skills training opportunities - Rank","{""ImportId"":""QID160_G2_6_RANK""}"
+"Q159_2_7_RANK","As the NRT program enters its final year of funding, what program activities would you like to see continued as is, adapted, or dropped for future students enrolled in complex network science graduate programs?
+
+ 
+Please add each NRT program item to one of the following groups below: Continue as is, Adapt, or Drop. - Ranks - Drop - CNS research skills training opportunities - Rank","{""ImportId"":""QID160_G2_7_RANK""}"
