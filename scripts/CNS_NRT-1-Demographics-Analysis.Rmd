@@ -1,0 +1,241 @@
+---
+title: ""
+output: 
+  pdf_document: default
+header-includes:
+ \usepackage{float}
+ \usepackage{lscape}
+ \floatplacement{figure}{H}
+---
+
+```{r envO, message=FALSE, warning=FALSE, include=FALSE}
+#### Environment Setup #### 
+library(tidyr)        # Data preparation
+library(plyr)         # Data preparation
+library(dplyr)        # Data preparation
+library(broom)        # Clean up summary tables
+library(extrafont)    # PDF Fonts used
+library(tinytex)      # LaTeX Package
+library(knitr)        # R Markdown
+library(kableExtra)   # Table printing
+
+# Global Options
+options(tinytex.verbose = TRUE)
+```
+
+# Program Demographics
+
+```{r data1, echo=FALSE, cache=FALSE, warning=FALSE, message=FALSE}
+path_c <- c("../data/membership/")
+path_t <- c("../tables/")
+getwd()
+
+# 2020-2022
+demo_s <- read.csv(paste0(path_c,"CNS_NRT-DoctoralFellows-Demographics-2024.csv"), header=T)
+demo_f <- read.csv(paste0(path_c,"CNS_NRT-Faculty-Affiliations-2022.csv"), header=T)
+
+# Factor demographic variables
+demo_s$Admit.Term <- factor(demo_s$Admit.Term, 
+                            levels=c("Fall 2015-2017","Fall 2018","Fall 2019",
+                                     "Fall 2020","Spring 2020","Fall 2021"))
+demo_s[is.na(demo_s$Ethnicity),]$Ethnicity <- "Not Provided"
+demo_s$Ethnicity <- factor(demo_s$Ethnicity,
+                           levels=c("Asian","Black/African American",
+                                       "White","Not Provided"))
+demo_s$Gender <- factor(demo_s$Gender, levels=c("F","M"), 
+                        labels=c("Female","Male"))
+demo_s$Aff.Lab <- as.factor(demo_s$Aff.Lab)
+demo_s$Affiliation <- as.factor(demo_s$Affiliation)
+```
+
+### Doctoral Fellow Demographics
+
+#### Ethnicity
+```{r demos-ethnicity, echo=FALSE, cache=FALSE, warning=FALSE, message=FALSE}
+# Pivot table of counts of student ethnicity broken out by admission term
+eth1 <- demo_s %>%
+          select(Student.ID, Ethnicity, Admit.Term) %>%
+          group_by(Ethnicity, Admit.Term) %>% 
+          dplyr::summarise(n=n()) %>%
+          pivot_wider(names_from = Admit.Term, 
+                      values_from = n, values_fill=0) %>% 
+          select(Ethnicity,'Fall 2015-2017','Fall 2018','Fall 2019',
+                'Fall 2020',"Spring 2020","Fall 2021") 
+eth1$Total <- rowSums(eth1[,2:ncol(eth1)])
+eth1 <- eth1 %>% arrange(desc(Total))
+eth2 <- as.data.frame(t(c("Total", colSums(eth1[,2:ncol(eth1)]))))
+eth2[,2:ncol(eth2)] <- as.numeric(eth2[,2:ncol(eth2)])
+names(eth2)[1]<- "Ethnicity"
+eth1 <- rbind(eth1,eth2)
+rm(eth2)
+
+# Export Results
+eth1 %>% write.csv(file=paste0(path_t,"Table1-CNS_NRT-DoctoralFellow-EthnicityCounts.csv"),
+                   row.names = F)
+
+# eth1 %>% 
+#   kbl(caption="CNS NRT Doctoral Student Admissions by Student Ethnicity and Admission Term", 
+#       label="dem1",
+#       centering = TRUE,) %>%
+#   kable_styling(bootstrap_options = "condensed",
+#                 full_width = F,
+#                 position = "center",
+#                 latex_options = "HOLD_position") %>% 
+#   row_spec(0, color="#080808", background = "#F0F0F0",
+#            extra_css = "border-bottom: 2px solid #080808;") %>% 
+#   row_spec(1:4, color="#080808", background = "#FFFFFF",
+#            extra_css = "border-bottom: 1px solid #696969;") %>%
+#   row_spec(5, color="#080808", background = "#F0F0F0",
+#            extra_css = "border-bottom: 2px solid #696969; border-top: 2px solid #696969;")
+```
+
+
+#### Gender
+```{r demos-gender, echo=FALSE, cache=FALSE, warning=FALSE, message=FALSE}
+# Pivot table of counts of student gender broken out by admission term
+gen1 <- demo_s %>%
+          select(Student.ID, Gender, Admit.Term) %>%
+          group_by(Gender, Admit.Term) %>% 
+          dplyr::summarise(n=n()) %>%
+          pivot_wider(names_from = Admit.Term, values_from = n, values_fill=0) %>% 
+          select(Gender,'Fall 2015-2017','Fall 2018','Fall 2019',
+                'Fall 2020',"Spring 2020","Fall 2021") 
+gen1$Total <- rowSums(gen1[,2:ncol(gen1)])
+gen1 <- gen1 %>% arrange(desc(Total))
+gen2 <- as.data.frame(t(c("Total", colSums(gen1[,2:ncol(gen1)]))))
+gen2[,2:ncol(gen2)] <- as.numeric(gen2[,2:ncol(gen2)])
+names(gen2)[1]<- "Gender"
+gen1 <- rbind(gen1,gen2)
+rm(gen2)
+
+# Export Results
+gen1 %>% write.csv(file=paste0(path_t,"Table2-CNS_NRT-DoctoralFellow-GenderCounts.csv"),
+                   row.names = F)
+
+# gen1 %>% 
+#   kbl(caption="CNS NRT Doctoral Student Admissions by Student Gender and Admission Term", 
+#       label="dem2",
+#       centering = TRUE,) %>%
+#   kable_styling(bootstrap_options = "condensed",
+#                 full_width = F,
+#                 position = "center",
+#                 latex_options = "HOLD_position") %>% 
+#   row_spec(0, color="#080808", background = "#F0F0F0",
+#            extra_css = "border-bottom: 2px solid #080808;") %>% 
+#   row_spec(1:2, color="#080808", background = "#FFFFFF",
+#            extra_css = "border-bottom: 1px solid #696969;") %>%
+#   row_spec(3, color="#080808", background = "#F0F0F0",
+#            extra_css = "border-bottom: 2px solid #696969; border-top: 2px solid #696969;")
+```
+
+#### Education
+
+##### Prior Education
+
+```{r edu1, echo=FALSE, cache=FALSE, warning=FALSE, message=FALSE}
+# Pivot table of counts of student ethnicity broken out by admission term
+edu1 <- 
+  demo_s %>%
+    mutate(Role = "Students") %>%
+    select(Role,BA,BS,MA,MS) %>% 
+    ddply(.(Role),summarise,
+          BA=sum(BA),
+          BS=sum(BS),
+          MA=sum(MA),
+          MS=sum(MS),
+          Total=length(Role)) %>%
+  t() %>%
+  data.frame()
+
+# Clean up dataframe
+names(edu1) <- "Students"
+edu1$Degree <- row.names(edu1)
+edu1 <- edu1[-1,c(2,1)]
+row.names(edu1) <- 1:nrow(edu1)    
+
+# Calculate percentage 
+edu1 <-
+  edu1 %>%
+  mutate(Students = as.numeric(Students))%>%
+  mutate(Percent = round((Students/max(Students)*100),1))
+
+# Export results
+edu1 %>% write.csv(file=paste0(path_t,"Table3-CNS_NRT-DoctoralFellow-PriorEducation.csv"),
+                   row.names = F)
+
+# # Table
+# edu1 %>%
+#     kbl(caption="CNS NRT Doctoral Student Prior Education", 
+#         label="disc1",
+#         centering = TRUE,) %>%
+#     kable_styling(bootstrap_options = "condensed",
+#                   full_width = F,
+#                   position = "center",
+#                   latex_options = "HOLD_position") %>% 
+#     row_spec(0, color="#080808", background = "#F0F0F0",
+#              extra_css = "border-bottom: 2px solid #080808;") %>% 
+#     row_spec(1:15, color="#080808", background = "#FFFFFF",
+#              extra_css = "border-bottom: 1px solid #696969;")
+```
+
+
+##### Secondary Doctoral Degree
+
+```{r edu2, echo=FALSE, cache=FALSE, warning=FALSE, message=FALSE}
+# Pivot table of counts of student ethnicity broken out by admission term
+edu2 <- 
+  demo_s %>%
+    select(Affiliation, Aff.Lab) %>%
+    mutate(Affiliation = paste0(Affiliation," (",Aff.Lab,")")) %>%
+    group_by(Affiliation) %>% 
+    dplyr::summarise(Count=n()) %>%
+    arrange(desc(Count))
+
+# Export results
+edu2 %>% write.csv(file=paste0(path_t,"Table4-CNS_NRT-DoctoralFellow-SecondProgram.csv"),
+                   row.names = F)
+
+# Table
+# edu2 %>%
+#     kbl(caption="CNS NRT Doctoral Student Secondary Discipline",
+#         label="disc1",
+#         centering = TRUE,) %>%
+#     kable_styling(bootstrap_options = "condensed",
+#                   full_width = F,
+#                   position = "center",
+#                   latex_options = "HOLD_position") %>%
+#     row_spec(0, color="#080808", background = "#F0F0F0",
+#              extra_css = "border-bottom: 2px solid #080808;") %>%
+#     row_spec(1:15, color="#080808", background = "#FFFFFF",
+#              extra_css = "border-bottom: 1px solid #696969;")
+```
+
+## CNS NRT Faculty Academic Disciplines
+
+```{r disc2, eval=FALSE, message=FALSE, warning=FALSE, cache=FALSE, include=FALSE}
+# Pivot table of counts of student ethnicity broken out by admission term
+fac1 <- 
+  demo_f %>%
+    select(Affiliation, Aff_Abbr) %>%
+    mutate("Affiliation" = paste0(Affiliation," (",Aff_Abbr,")")) %>%
+    group_by(Affiliation) %>% 
+    dplyr::summarise(Count=n()) %>%
+    arrange(desc(Count)) 
+
+# Export results
+fac1 %>% write.csv(file=paste0(path_t,"Appendix-CNS_NRT-Faculty-Affiliations.csv"),
+                   row.names = F)
+
+# fac1 %>%
+#     kbl(caption="CNS NRT Faculty Disciplines", 
+#         label="disc2",
+#         centering = TRUE,) %>%
+#     kable_styling(bootstrap_options = "condensed",
+#                   full_width = F,
+#                   position = "center",
+#                   latex_options = "HOLD_position") %>% 
+#     row_spec(0, color="#080808", background = "#F0F0F0",
+#              extra_css = "border-bottom: 2px solid #080808;") %>% 
+#     row_spec(1:15, color="#080808", background = "#FFFFFF",
+#              extra_css = "border-bottom: 1px solid #696969;")
+```
