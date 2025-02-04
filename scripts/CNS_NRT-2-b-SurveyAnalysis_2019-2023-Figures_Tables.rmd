@@ -4,7 +4,7 @@ output:
   pdf_document: default
 ---
 
-#### Environment Setup ####
+#### Environment Setup
 
 ```{r env, message=FALSE, warning=FALSE, include=FALSE}
 #rm(list=ls())
@@ -44,14 +44,14 @@ theme_update(
 )
 ```
 
-####Data Preparation ####
+####Data Preparation
 
 ```{r load-data, include=FALSE}
-#### Data Path ####
+#Data Path
 path_s <- c("../data/survey/")
 getwd()
 
-#### Load Survey Responses####
+#Load Survey Responses
 data <- read.csv(file=paste0(path_s,"CNS_NRT-SurveyResponses_2019-2023-2025prep.csv"), 
                  header = T, sep=",") 
 data$Progress <- as.numeric(data$Progress)
@@ -86,13 +86,13 @@ d_qual_m <- read.csv(file=paste0(path_s,"CNS_NRT-Survey_2019-2023_qual_meta.csv"
 d_qual   <- read.csv(file=paste0(path_s,"CNS_NRT-Survey_2019-2023_qual.csv"), 
                      header = T, sep=",")
 
-#### Load Response Summary Statistics
+# Load Response Summary Statistics
 rep <- read.csv(file=paste0(path_s,"CNS_NRT-SurveyResponseRates_2019-2023.csv"), 
                  header = T, sep=",") 
 ```
 
 ```{r prepare-data}
-#### Common factor variables ####
+# Common factor variables
 # Factor scales
 roles <- c("Faculty","Fellow","Affiliate","Admin")
 likerts <- c("Strongly Disagree", "Disagree", "Somewhat Disagree",
@@ -142,9 +142,9 @@ d_qual$Group <- factor(d_qual$Group)
 d_qual$Item <- factor(d_qual$Item)
 ```
 
-####Table 5: Survey Response Statistics ####
+####Table 5: Survey Response Statistics
 
-```{r response_stats}
+```{r Table5-response_stats}
 # Response statistics
 names(rep)[2] <- "Role"
 # Overall
@@ -170,9 +170,9 @@ names(rep_overall) <- c("Year(s)","Invitations","Total Responses",
                         "Completed Resp.\nRate (%)")
 ```
 
-####Table 6: Survey Response by NRT Roles ####
+####Table 6: Survey Response by NRT Roles
 
-```{ r responses_stats_role}
+```{r Table6-responses_stats_role, echo=FALSE, paged.print=TRUE}
 # By Role
 rep <- rep[rep$Role != "Overall",]
 row.names(rep) <- 1:nrow(rep)
@@ -186,7 +186,7 @@ names(rep) <- c("Year","NRT Role","Invitations","Total Responses",
 rep[,c(5,7)] <- rep[,c(5,7)]*100
 ```
 
-####Appendix: Annual Survey Responce Statistics ####
+####Appendix: Annual Survey Responce Statistics
 
 ```{r resp-overall, echo=FALSE, paged.print=TRUE}
 rep_overall %>% 
@@ -212,7 +212,7 @@ rep %>%
   collapse_rows(columns = 1, latex_hline = "major", valign = "top")
 ```
 
-####Appendix: CNS NRT Goal Achievement and Satisfaction ####
+####Appendix: CNS NRT Goal Achievement and Satisfaction
 
 ```{r nrt-perf1, echo=FALSE, message=FALSE, warning=FALSE}
 tmp <- 
@@ -243,10 +243,10 @@ tmp %>%
   collapse_rows(columns = 1, latex_hline = "major", valign = "top")
 ```
 
-####Figure 5: CNS NRT Goal Achievement ####
+####Figure 5: CNS NRT Goal Achievement
 
-```{r Figure5-CNS_NRT-goals, echo=FALSE, fig.align="center", fig.path="../figures/", dev=c('png','tiff'), fig.height=2.5, fig.width=10, message=FALSE, warning=FALSE, dpi=200}
-#### Overall ####
+```{r Figure5-CNS_NRT-goals, fig.path="../figures/", dpi=200, dev=c('png','tiff'), fig.height=2.5, fig.width=10, message=FALSE, warning=FALSE, echo=FALSE}
+#### Overall
 # Annual count of distinct participants for each year
 participant_ct <- 
   d_all %>% 
@@ -300,10 +300,10 @@ p1 <-
 p1
 ```
 
-####Figure 6: CNS NRT Goal Achievement - By Respondent Roles ####
+####Figure 6: CNS NRT Goal Achievement - By Respondent Roles
 
-```{r Figure6-CNS_NRT-goals-role, echo=FALSE, fig.path="../figures/", fig.height=8, fig.width=10, dev=c('png','tiff'), message=FALSE, warning=FALSE, dpi=200}
-#### Role Level ####
+```{r Figure6-CNS_NRT-goals-role, fig.path="../figures/", dpi=200, dev=c('png','tiff'), fig.height=8, fig.width=10, message=FALSE, warning=FALSE, echo=FALSE}
+#### Role Level
 # Annual count of distinct participants, by Role
 participant_ct <- 
   d_all %>% 
@@ -421,10 +421,10 @@ p4 <-
 (p1/p2/p3/p4)
 ```
 
-####Figure 14: COVID Impact on CNS NRT Program ####
+####Figure 14: COVID Impact on CNS NRT Program
 
-```{r Figure14-CNS_NRT-covidimpact, echo=FALSE, fig.path="../figures/", fig.height=4.5, fig.width=6, dev=c('png','tiff'), message=FALSE, warning=FALSE, dpi=200}
-#### Overall ####
+```{r Figure14-CNS_NRT-covidimpact, fig.path="../figures/", dpi=200, dev=c('png','tiff'), fig.height=4.5, fig.width=6, message=FALSE, warning=FALSE, echo=FALSE}
+#### Overall
 # Annual count of distinct participants for each year
 participant_ct <- 
   d_all %>% 
@@ -453,7 +453,7 @@ answer_ct <-
   mutate(Percent=round(Count/Participants*100,2)) %>%
   arrange(Item,Role,Year,Item,desc(Value))
 answer_ct[answer_ct$Percent==0,]$Percent <- NA
-#### Figure Parts ####
+#### Figure Parts
 #COVID Impact
 p1 <-
   answer_ct %>%
@@ -473,7 +473,7 @@ p1 <-
 p1
 ```
 
-####Appendix: CNS NRT Covid Impact ####
+####Appendix: CNS NRT Covid Impact
 
 ```{r covid-19, message=FALSE, warning=FALSE}
 tmp <- 
@@ -506,9 +506,9 @@ tmp %>%
 ```
 
 
-####Table 7: CNS NRT Doctoral Fellow Student Satisfaction ####
+####Table 7: CNS NRT Doctoral Fellow Student Satisfaction
 
-```{r nrt-sat1, echo=FALSE, message=FALSE, warning=FALSE}
+```{r Table7-nrt-sat1, echo=FALSE, message=FALSE, warning=FALSE}
 # Student satisfaction questions
 tmp <- 
   d_std %>%
@@ -537,9 +537,9 @@ tmp %>%
   collapse_rows(columns = 1, latex_hline = "major", valign = "top")
 ```
 
-####Figure 7: CNS NRT Doctoral Fellow Student Satisfaction ####
+####Figure 7: CNS NRT Doctoral Fellow Student Satisfaction
 
-```{r Figure7-CNS_NRT-DoctoralFellow-Satisfaction, echo=FALSE, fig.align="center", fig.path="../figures/", fig.height=4.5, fig.width=7.5, dev=c('png','tiff'), message=FALSE, warning=FALSE, dpi=200}
+```{r Figure7-CNS_NRT-DoctoralFellow-Satisfaction, fig.path="../figures/", dpi=200, dev=c('png','tiff'), fig.height=4.5, fig.width=7.5, echo=FALSE, message=FALSE, warning=FALSE}
 # Student Participants - Satisfaction Questions
 participant_ct <- 
   d_std %>% 
@@ -568,7 +568,7 @@ answer_ct <-
   filter(!is.na(Value)) %>%
   arrange(Item,Role,Year,Item,desc(Value))
 answer_ct[answer_ct$Percent==0,]$Percent <- NA
-#### Figure Parts ####
+#### Figure Parts
 #Doctoral Fellow Satisfaction
 p1 <-
   answer_ct %>%
@@ -591,9 +591,9 @@ p1
 
 ```
 
-####Table 8: CNS NRT Academic Program Impact on Research Skills ####
+####Table 8: CNS NRT Academic Program Impact on Research Skills
 
-```{r nrt-skills1, echo=FALSE, message=FALSE, warning=FALSE}
+```{r Table8-nrt-skills1, echo=FALSE, message=FALSE, warning=FALSE}
 tmp <-
   d_std %>% 
   filter(Group=="Program Impact") %>%
@@ -622,9 +622,9 @@ tmp %>%
   collapse_rows(columns = 1, latex_hline = "major", valign = "top")
 ```
 
-####Figure 8: Program Impact on Doctoral Fellow Research Skills ####
+####Figure 8: Program Impact on Doctoral Fellow Research Skills
 
-```{r Figure8-CNS-NRT_DoctoralFellow-ProgramImpactSkills, echo=FALSE, fig.align="center", fig.path="../figures/", fig.height=4.5, fig.width=7.5, dev=c('png','tiff'), message=FALSE, warning=FALSE, dpi=200}
+```{r Figure8-CNS-NRT_DoctoralFellow-ProgramImpactSkills, fig.path="../figures/", dpi=200, dev=c('png','tiff'), fig.height=4.5, fig.width=7.5, echo=FALSE, message=FALSE, warning=FALSE}
 # Doctoral Fellow Participants - Research Skills
 participant_ct <- 
   d_std %>% 
@@ -653,7 +653,7 @@ answer_ct <-
   filter(!is.na(Value)) %>%
   arrange(Item,Role,Year,Item,desc(Value))
 answer_ct[answer_ct$Percent==0,]$Percent <- NA
-#### Figure Parts ####
+# Figure Parts
 #CNS Program Impact
 p1 <- 
   answer_ct %>%
@@ -675,9 +675,9 @@ p1 <-
 p1
 ```
 
-####Table 9: CNS NRT Faculty Agreement Mentorship Improves Research Skills ####
+####Table 9: CNS NRT Faculty Agreement Mentorship Improves Research Skills
 
-```{r nrt-mentF1, echo=FALSE, message=FALSE, warning=FALSE}
+```{r Table9-nrt-mentF1, echo=FALSE, message=FALSE, warning=FALSE}
 tmp <-
   d_fac %>%
   filter(Value!="Not Applicable") %>%
@@ -704,7 +704,7 @@ tmp %>%
 
 ####Figure 11: Facultys' Perception of Mentorships Impact on CNS NRT Doctoral Fellows
 
-```{r Figure11-CNS_NRT-Faculty-Mentoship, echo=FALSE, fig.path="../figures/", fig.height=4.5, fig.width=6, dev=c('png','tiff'), message=FALSE, warning=FALSE, dpi=200}
+```{r Figure11-CNS_NRT-Faculty-Mentoship, fig.path="../figures/", dpi=200, dev=c('png','tiff'), fig.height=4.5, fig.width=6,  message=FALSE, warning=FALSE, echo=FALSE}
 # Faculty Participants - Mentoships Impact on Research Skills
 participant_ct <- 
   d_fac %>% 
@@ -731,7 +731,7 @@ answer_ct <-
   filter(!is.na(Value)) %>%
   arrange(Item,Role,Year,Item,desc(Value))
 answer_ct[answer_ct$Percent==0,]$Percent <- NA
-#### Figure Parts ####
+#### Figure Parts
 #Research
 p1 <- 
   answer_ct %>%
@@ -754,7 +754,7 @@ p1
 
 ####Table 10: Mentorship Impact on Research Skills
 
-```{r nrt-mentS1, echo=FALSE, message=FALSE, warning=FALSE}
+```{r Table10-nrt-mentS1, echo=FALSE, message=FALSE, warning=FALSE}
 tmp <-
   d_std %>% 
   filter(Group == "Mentorship Impact") %>%
@@ -787,7 +787,7 @@ tmp %>%
 
 ####Figure 12. Mentorships Impact on CNS NRT Doctoral Fellows
 
-```{r Figure12-CNS_NRT-DoctoralFellow_MentorshipImpact, echo=FALSE, fig.align="center", fig.path="../figures/", fig.height=5, fig.width=8, dev=c('png','tiff'), message=FALSE, warning=FALSE, dpi=200}
+```{r Figure12-CNS_NRT-DoctoralFellow_MentorshipImpact, fig.path="../figures/", dpi=200, dev=c('png','tiff'), fig.height=5, fig.width=8, message=FALSE, warning=FALSE, echo=FALSE}
 # Fellows Participants - Mentorship Impact on Research Skills
 participant_ct <- 
   d_std %>% 
@@ -819,7 +819,7 @@ answer_ct <-
   filter(!is.na(Value)) %>%
   arrange(Item,Role,Year,Item,desc(Value))
 answer_ct[answer_ct$Percent==0,]$Percent <- NA
-#### Figure Parts ####
+# Figure Parts
 # Mentorship Impact
 p1 <- 
   answer_ct %>%
@@ -841,9 +841,9 @@ p1 <-
 p1
 ```
 
-####Table 11: Quality of Mentor ####
+####Table 11: Quality of Mentor
 
-```{r nrt-mentS3, echo=FALSE, message=FALSE, warning=FALSE}
+```{r Table11-nrt-mentS3, echo=FALSE, message=FALSE, warning=FALSE}
 # Student satisfaction questions
 tmp <-
   d_std %>%  
@@ -853,8 +853,9 @@ tmp <-
                    Median = round(median(as.numeric(Value)),1),
                    Mean = round(mean(as.numeric(Value)),1),
                    SD = round(sd(as.numeric(Value)),3))
-# write.csv(tmp,"../tables/CNS_NRT-Survey_2019-2023-DoctoralFellow_MentorshipQuality.csv",
-#           row.names = FALSE)
+write.csv(tmp,"../tables/Table11-CNS_NRT-Survey_2019-2023-DoctoralFellow_MentorshipQuality.csv",
+          row.names = FALSE)
+
 tmp %>%
   kbl(caption="CNS NRT Doctoral Fellow: Quality of Mentorships Relationships, for 2019-2023.", 
       centering = TRUE,) %>%
@@ -868,9 +869,9 @@ tmp %>%
   collapse_rows(columns = 1, latex_hline = "major", valign = "top")
 ```
 
-####Figure 13:  Quality with Mentorship for CNS NRT Doctoral ####
+####Figure 13:  Quality with Mentorship for CNS NRT Doctoral
 
-```{r Figure13-CNS_NRT-DoctoralFellow-MentorshipQuality, echo=FALSE, fig.align="center", fig.path="../figures/", fig.height=6.5, fig.width=9, dev=c('png','tiff'), message=FALSE, warning=FALSE, dpi=200}
+```{r Figure13-CNS_NRT-DoctoralFellow-MentorshipQuality, fig.path="../figures/", dpi=200, dev=c('png','tiff'), fig.height=6.5, fig.width=9, message=FALSE, warning=FALSE, echo=FALSE}
 # Fellows Participants - Mentorship Impact on Research Skills
 participant_ct <- 
   d_std %>% 
@@ -902,7 +903,7 @@ answer_ct <-
   filter(!is.na(Value)) %>%
   arrange(Item,Role,Year,Item,desc(Value))
 answer_ct[answer_ct$Percent==0,]$Percent <- NA
-#### Figure Parts ####
+#### Figure Parts
 #Mentorship Quality
 p1 <- 
   answer_ct %>%
@@ -921,9 +922,9 @@ p1 <-
 p1
 ```
 
-####Figure 9: Program Impact on Doctoral Fellow Sense of Interdisciplinary ####
+####Figure 9: Program Impact on Doctoral Fellow Sense of Interdisciplinary
 
-```{r Figure9-CNS_NRT-DoctoralFellow-ProgramImpact-Interdisciplinary, echo=FALSE, fig.align="center", fig.path="../figures/", fig.height=2.5, fig.width=8, dev=c('png','tiff'), message=FALSE, warning=FALSE, dpi=200}
+```{r Figure9-CNS_NRT-DoctoralFellow-ProgramImpact-Interdisciplinary, fig.path="../figures/", dpi=200,  dev=c('png','tiff'),  fig.height=2.5, fig.width=8, message=FALSE, warning=FALSE, echo=FALSE}
 # Fellows Participants - Program Impact on CNS Fellow Interdisciplinarity
 participant_ct <-
   d_std %>% 
@@ -968,9 +969,9 @@ p1 <-
 p1
 ```
 
-####Figure 10: Doctoral Fellows Interdisciplinary Values and Impact on Research Skills ####
+####Figure 10: Doctoral Fellows Interdisciplinary Values and Impact on Research Skills
 
-```{r Figure10-CNS_NRT-DoctoralFellow-Interdisciplinary, fig.align="center", fig.path="../figures/", fig.height=9.5, fig.width=7.5, dev=c('png','tiff'), dpi=200, message=FALSE, warning=FALSE}
+```{r Figure10-CNS_NRT-DoctoralFellow-Interdisciplinary, fig.path="../figures/", dpi=200,  dev=c('png','tiff'), fig.height=9.5, fig.width=7.5, message=FALSE, warning=FALSE, echo=FALSE}
 # Fellows Participants - Interdisciplinary Questions
 participant_ct <- 
   d_std %>% 
@@ -1005,7 +1006,7 @@ answer_ct <-
   filter(!is.na(Value)) %>%
   arrange(Group,Item,Year,desc(Value))
 answer_ct[answer_ct$Percent==0,]$Percent <- NA
-#### Figure Parts ####
+#### Figure Parts
 #Interdisciplinary Impact on Academic Research
 p1 <- 
   answer_ct %>%
