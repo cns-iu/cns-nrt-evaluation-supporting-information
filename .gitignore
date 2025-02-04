@@ -2,7 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
-*.Rproj
 
 # Data files
 /data/membership/CNS_NRT-Faculty-Affiliations-2022.csv
@@ -16,4 +15,3 @@
 
 # Table exports
 /tables/Appendix*
-
