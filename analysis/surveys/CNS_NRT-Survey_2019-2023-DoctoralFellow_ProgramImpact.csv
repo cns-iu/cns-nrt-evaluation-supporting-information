@@ -1,0 +1,26 @@
+"Item","Year","Responses","Median","Mean","SD"
+"Grant Writing",2019,9,4,3.3,1.414
+"Grant Writing",2020,11,4,3.5,1.695
+"Grant Writing",2021,11,4,3.2,1.168
+"Grant Writing",2022,11,4,3.5,1.036
+"Grant Writing",2023,5,3,3.2,1.483
+"Networking",2019,9,4,3.9,0.928
+"Networking",2020,17,5,4.9,1.088
+"Networking",2021,15,4,4.5,1.125
+"Networking",2022,13,5,4.5,1.33
+"Networking",2023,6,4.5,4.7,0.816
+"Presentations",2019,10,4,4.1,0.876
+"Presentations",2020,14,5,4.6,1.342
+"Presentations",2021,15,4,4.3,1.113
+"Presentations",2022,13,5,4.3,1.316
+"Presentations",2023,6,5,4.8,0.753
+"Technical Skills",2019,10,4.5,4,1.563
+"Technical Skills",2020,16,4.5,4.7,1.401
+"Technical Skills",2021,14,5,4.5,1.454
+"Technical Skills",2022,12,5,4.9,0.793
+"Technical Skills",2023,6,4.5,4.7,0.816
+"Writing",2019,9,4,3.4,0.882
+"Writing",2020,15,4,4.2,1.146
+"Writing",2021,15,4,3.8,1.207
+"Writing",2022,13,4,3.6,1.325
+"Writing",2023,6,4.5,4.3,1.366
