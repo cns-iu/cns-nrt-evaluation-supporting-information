@@ -86,8 +86,8 @@ names(authors)[c(3,6)] <- c("first_name","matched_first_name")
 
 # A review of the results indicate 9 author mis-matches
 # Clean-up bad matches 
-authors[c(105,164,222,223,224,226,227,239,240),] <-
-  authors[c(105,164,222,223,224,226,227,239,240),] %>%
+authors[c(104,163,220,221,222,224,225,237,238),] <-
+  authors[c(104,163,220,221,222,224,225,237,238),] %>%
   mutate(matched_first_name=NA,
          name=NA,
          group=NA,
@@ -102,7 +102,7 @@ authors <-
   authors %>%
   distinct()
 # Drop bad matches remaining duplicate (Wang, Xuan)
-authors <- authors[-c(223),]
+authors <- authors[-c(221),]
 
 # Remaining matches are accurate and converted to 1
 authors[authors$match==1,]$verified <- 1

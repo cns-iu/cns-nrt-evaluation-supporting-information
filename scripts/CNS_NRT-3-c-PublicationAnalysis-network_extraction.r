@@ -215,7 +215,9 @@ author_relationships <-
 authors %>%
   select(-c(Name, Last_name, First_name)) %>%
   write.csv(file=paste0(path_analysis,"publications/author_analysis/CNS_NRT-publications-author_stats.csv"),
-            row.names = FALSE, fileEncoding = "UTF-8") %>%
+            row.names = FALSE, fileEncoding = "UTF-8") 
+authors %>%
+  select(-c(Name, Last_name, First_name)) %>%
   write.csv(file=paste0(path_analysis,"publications/network_analysis/CNS_NRT-publications-coauthorship_nodes.csv"),
             row.names = FALSE, fileEncoding = "UTF-8")
 
@@ -224,7 +226,10 @@ author_relationships %>%
   mutate(From =  as.integer(Source),
          To =  as.integer(Target)) %>% 
   write.csv(file=paste0(path_analysis,"publications/author_analysis/CNS_NRT-publications-author_relationships_stats.csv"),
-            row.names = FALSE, fileEncoding = "UTF-8") %>%
+            row.names = FALSE, fileEncoding = "UTF-8")
+author_relationships %>%
+  mutate(From =  as.integer(Source),
+         To =  as.integer(Target)) %>% 
   write.csv(file=paste0(path_analysis,"publications/network_analysis/CNS_NRT-publications-coauthorship_edges.csv"),
             row.names = FALSE, fileEncoding = "UTF-8")
 
