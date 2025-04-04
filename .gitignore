@@ -15,3 +15,8 @@
 
 # Table exports
 /tables/Appendix*
+
+# Supporting Info directories 
+# use zip versions
+/supporting_information/Appendix_S*/*
+/supporting_information/Appendix_S6*

@@ -12,8 +12,6 @@ library(ggplot2)      # Figures
 library(patchwork)    # Grammar for combining figures
 library(grid)         # Figure layouts
 library(gridExtra)    # Figure layouts
-library(knitr)        # R Markdown
-library(kableExtra)   # Table printing
 
 # Set CNS-NRT figure theme
 theme_nrt <- theme_grey()
@@ -219,6 +217,7 @@ tmp <-
 write.csv(tmp,paste0(path_t,"Table10-CNS_NRT-Survey_2019-2023-DoctoralFellow_MentorshipImpact.csv"),
           row.names = FALSE)
 rm(tmp)
+
 ##### Table 11: Quality of Mentor #####
 tmp <-
   d_std %>%  
@@ -264,7 +263,6 @@ answer_ct <-
   filter(!is.na(Value)) %>%
   arrange(Item,Year,Item,desc(Value))
 answer_ct[answer_ct$Percent==0,]$Percent <- NA
-
 # Generate figure
 p1 <- 
   answer_ct %>%
@@ -288,14 +286,14 @@ p1 <-
         legend.title = element_text(size=8),
         legend.text=element_text(vjust=.5, size=6),
         plot.margin = margin(,.1,.1,.1, "cm"))
-
+# Tiff
 tiff(filename = paste0(path_f,"/Fig4.tiff"),
      width = 2238, height = 560, units = "px", pointsize = 12,
      compression = c("lzw"), bg = "white", res = 300, , restoreConsole = TRUE,
      type = c("windows"), symbolfamily="default")
   p1
 dev.off()
-
+# Png
 png(filename = paste0(path_f,"/png/Fig4.png"),
      width = 2238, height = 560, units = "px", pointsize = 12,
      bg = "white", res = 300, , restoreConsole = TRUE,
@@ -335,7 +333,6 @@ answer_ct <-
   filter(!is.na(Value)) %>%
   arrange(Item,Role,Year,Item,desc(Value))
 answer_ct[answer_ct$Percent==0,]$Percent <- NA
-
 # Generate Figure Parts
 p1 <- 
   answer_ct %>%
@@ -359,7 +356,6 @@ p1 <-
         strip.text = element_text(size=8.5),
         legend.title = element_text(size=8.5),
         legend.text=element_text(vjust=1.5, size=7))
-
 #Doctoral Students
 p2 <- 
   answer_ct %>%
@@ -384,7 +380,6 @@ p2 <-
         strip.background = element_blank(),
         legend.title=element_blank(),
         legend.text=element_text(vjust=1.5, size=7))
-
 #Affiliates
 p3 <- 
   answer_ct %>%
@@ -409,7 +404,6 @@ p3 <-
         strip.background = element_blank(),
         legend.title=element_blank(),
         legend.text=element_text(vjust=1.5, size=7))
-
 #Administrators
 p4 <- 
   answer_ct %>%
@@ -480,7 +474,6 @@ answer_ct <-
   filter(!is.na(Value)) %>%
   arrange(Item,Role,Year,Item,desc(Value))
 answer_ct[answer_ct$Percent==0,]$Percent <- NA
-
 # Generate Figure
 p1 <-
   answer_ct %>%
@@ -803,6 +796,7 @@ png(filename = paste0(path_f,"/png/Fig10.png"),
   p1
 dev.off()
 rm(p1)
+
 ##### Figure 11: Mentorships Impact on CNS NRT Doctoral Fellows #####
 # Fellows Participants - Mentorship Impact on Research Skills
 participant_ct <- 
@@ -995,7 +989,6 @@ tiff(filename = paste0(path_f,"/Fig13.tiff"),
      type = c("windows"), symbolfamily="default")
   p1
 dev.off()
-
 # PNG
 png(filename = paste0(path_f,"/png/Fig13.png"),
     width = 1200, height = 1050, units = "px", pointsize = 12,
@@ -1004,15 +997,6 @@ png(filename = paste0(path_f,"/png/Fig13.png"),
   p1
 dev.off()
 rm(p1)
-
-
-
-
-
-
-
-
-
 
 #### Appendices #### 
 # CNS NRT Goal Achievement and Satisfaction 
