@@ -3,20 +3,13 @@
 .RData
 .Ruserdata
 
-# Data files
-/data/membership/CNS_NRT-Faculty-Affiliations-2022.csv
-/data/membership/CNS_NRT-DoctoralFellows-Demographics-2024.csv
-/data/membership/CNS_NRT-Membership-2024.csv
-/data/survey/CNS_NRT-SurveyResponses_2019-2023.csv
-
 # Script exports
 /scripts/*.pdf
 /scripts/*.log
 
-# Table exports
-/tables/Appendix*
+# Data and Supporting Info directories 
+/data/membership/CNS_NRT-DoctoralFellows-Demographics-2024.csv
 
-# Supporting Info directories 
 # use zip versions
 /supporting_information/Appendix_S*/*
 /supporting_information/Appendix_S6*
