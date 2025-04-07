@@ -52,7 +52,7 @@ eth1 <- rbind(eth1,eth2)
 rm(eth2)
 # Export Results
 eth1 %>% 
-  write.csv(file=paste0(path_t,"Table1-CNS_NRT-DoctoralFellow-EthnicityCounts.csv"),
+  write.csv(file=paste0(path_t,"table_1-CNS_NRT-DoctoralFellow-EthnicityCounts.csv"),
             row.names = F)
 
 ##### Gender #####
@@ -74,7 +74,7 @@ rm(gen2)
 
 # Export Results
 gen1 %>% 
-  write.csv(file=paste0(path_t,"Table2-CNS_NRT-DoctoralFellow-GenderCounts.csv"),
+  write.csv(file=paste0(path_t,"table_2-CNS_NRT-DoctoralFellow-GenderCounts.csv"),
             row.names = F)
 
 #### Education ####
@@ -107,7 +107,7 @@ edu1 <-
 
 # Export results
 edu1 %>% 
-  write.csv(file=paste0(path_t,"Table3-CNS_NRT-DoctoralFellow-PriorEducation.csv"),
+  write.csv(file=paste0(path_t,"table_3-CNS_NRT-DoctoralFellow-PriorEducation.csv"),
             row.names = F)
 
 ##### Secondary Doctoral Degree #####
@@ -122,20 +122,21 @@ edu2 <-
 
 # Export results
 edu2 %>% 
-  write.csv(file=paste0(path_t,"Table4-CNS_NRT-DoctoralFellow-SecondProgram.csv"),
+  write.csv(file=paste0(path_t,"table_4-CNS_NRT-DoctoralFellow-SecondProgram.csv"),
             row.names = F)
 
 #### CNS NRT Faculty Academic Disciplines ####
-# Pivot table of counts of faculty discipline
-fac1 <- 
-  demo_f %>%
-  select(Affiliation, Aff_Abbr) %>%
-  mutate("Affiliation" = paste0(Affiliation," (",Aff_Abbr,")")) %>%
-  group_by(Affiliation) %>% 
-  dplyr::summarise(Count=n()) %>%
-  arrange(desc(Count)) 
-
-# Export results
-fac1 %>% 
-  write.csv(file=paste0(path_si,"Appendix_S3/CNS_NRT-Faculty-Affiliation-Counts.csv"),
-            row.names = F)
+# # Pivot table of counts of faculty discipline
+#fac1 <- 
+#  demo_f %>%
+#  select(Affiliation, Aff_Abbr) %>%
+#  mutate("Affiliation" = paste0(Affiliation," (",Aff_Abbr,")")) %>%
+#  group_by(Affiliation) %>% 
+#  dplyr::summarise(Count=n()) %>%
+#  arrange(desc(Count)) 
+#
+# # Export results
+#fac1 %>% 
+#  write.csv(file=paste0(path_si,
+#            "S1_Dataset_CNS_NRT_core_faculty_data/S1B_Table_CNS_NRT_department_affiliation_counts.csv"),
+#            row.names = F)

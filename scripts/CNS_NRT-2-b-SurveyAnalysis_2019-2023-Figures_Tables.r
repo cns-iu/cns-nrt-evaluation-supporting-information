@@ -32,6 +32,7 @@ theme_update(
 path_s <- paste0(getwd(),"/data/survey/")
 path_t <- paste0(getwd(),"/tables/")
 path_f <- paste0(getwd(),"/figures/")
+path_si <- paste0(getwd(),"/supporting_information/")
 
 #### Load Survey Responses ####
 data <- read.csv(file=paste0(path_s,"CNS_NRT-SurveyResponses_2019-2023-prepared.csv"), 
@@ -135,7 +136,7 @@ rep_overall <-
           round(sum(rep_overall$Responses.Used)/sum(rep_overall$Invitation)*100,1)))
 rep_overall[,c(2,3,5)] <- as.integer(unlist(rep_overall[,c(2,3,5)]))
 rep_overall[,c(4,6)] <- as.numeric(unlist(rep_overall[,c(4,6)]))
-write.csv(rep_overall, paste0(path_t,"Table5-CNS_NRT-Survey_2019-2023-ResponseRates-overall.csv"),
+write.csv(rep_overall, paste0(path_t,"table_5-CNS_NRT-Survey_2019-2023-ResponseRates-overall.csv"),
           row.names = F)
 names(rep_overall) <- c("Year(s)","Invitations","Total Responses",
                         "Total Resp.\nRate (%)",
@@ -148,7 +149,7 @@ rep <- rep[rep$Role != "Overall",]
 row.names(rep) <- 1:nrow(rep)
 rep$Role <- ordered(rep$Role, levels=roles)
 rep <- rep[,c(1:4,7,6,9)]
-write.csv(rep, paste0(path_t,"Table6-CNS_NRT-Survey_2019-2023-ResponseRates-role.csv"),
+write.csv(rep, paste0(path_t,"table_6-CNS_NRT-Survey_2019-2023-ResponseRates-role.csv"),
           row.names = F)
 names(rep) <- c("Year","NRT Role","Invitations","Total Responses",
                 "Total Resp.\nRate (%)",
@@ -167,7 +168,7 @@ tmp <-
                    Median = round(median(as.numeric(Value)),1),
                    Mean = round(mean(as.numeric(Value)),1),
                    SD = round(sd(as.numeric(Value)),3))
-write.csv(tmp,paste0(path_t,"Table7-CNS_NRT-Survey_2019-2023-DoctoralFellow_Satisfaction.csv"),
+write.csv(tmp,paste0(path_t,"table_7-CNS_NRT-Survey_2019-2023-DoctoralFellow_Satisfaction.csv"),
           row.names = FALSE)
 rm(tmp)
 
@@ -183,7 +184,7 @@ tmp <-
                    Median = round(median(as.numeric(Value)),1),
                    Mean = round(mean(as.numeric(Value)),1),
                    SD = round(sd(as.numeric(Value)),3))
-write.csv(tmp,paste0(path_t,"Table8-CNS_NRT-Survey_2019-2023-DoctoralFellow_ProgramImpact.csv"),
+write.csv(tmp,paste0(path_t,"table_8-CNS_NRT-Survey_2019-2023-DoctoralFellow_ProgramImpact.csv"),
           row.names = FALSE)
 rm(tmp)
 
@@ -196,7 +197,7 @@ tmp <-
                    Median = round(median(as.numeric(Value)),1),
                    Mean = round(mean(as.numeric(Value)),1),
                    SD = round(sd(as.numeric(Value)),3))
-write.csv(tmp,paste0(path_t,"Table9-CNS_NRT-Survey_2019-2023-Faculty_MentorshipImpact.csv"),
+write.csv(tmp,paste0(path_t,"table_9-CNS_NRT-Survey_2019-2023-Faculty_MentorshipImpact.csv"),
           row.names = FALSE)
 rm(tmp)
 
@@ -214,7 +215,7 @@ tmp <-
                    Mean = round(mean(as.numeric(Value)),1),
                    SD = round(sd(as.numeric(Value)),3)) %>%
   arrange(desc(Item))
-write.csv(tmp,paste0(path_t,"Table10-CNS_NRT-Survey_2019-2023-DoctoralFellow_MentorshipImpact.csv"),
+write.csv(tmp,paste0(path_t,"table_10-CNS_NRT-Survey_2019-2023-DoctoralFellow_MentorshipImpact.csv"),
           row.names = FALSE)
 rm(tmp)
 
@@ -227,7 +228,7 @@ tmp <-
                    Median = round(median(as.numeric(Value)),1),
                    Mean = round(mean(as.numeric(Value)),1),
                    SD = round(sd(as.numeric(Value)),3))
-write.csv(tmp,paste0(path_t,"/Table11-CNS_NRT-Survey_2019-2023-DoctoralFellow_MentorshipQuality.csv"),
+write.csv(tmp,paste0(path_t,"/table_11-CNS_NRT-Survey_2019-2023-DoctoralFellow_MentorshipQuality.csv"),
           row.names = FALSE)
 rm(tmp)
 
@@ -1009,7 +1010,7 @@ rm(p1)
 #                    Median = round(median(as.numeric(Value)),1),
 #                    Mean = round(mean(as.numeric(Value)),1),
 #                    SD = round(sd(as.numeric(Value)),2))
-# write.csv(tmp,paste0(path_t,"Appendix-CNS_NRT-Survey_2019-2023-AchieveProgramGoals.csv"),
+# write.csv(tmp,paste0(path_si,"Appendix-CNS_NRT-Survey_2019-2023-AchieveProgramGoals.csv"),
 #           row.names = FALSE)
 # CNS NRT Covid Impact
 # appendix_2 <-
@@ -1021,5 +1022,5 @@ rm(p1)
 #                    Median = round(median(as.numeric(Value)),1),
 #                    Mean = round(mean(as.numeric(Value)),1),
 #                    SD = round(sd(as.numeric(Value)),2))
-# write.csv(tmp,paste0(path_t,"Appendix-CNS_NRT-Survey_2019-2023-COVID.csv"),
+# write.csv(tmp,paste0(path_si,"Appendix-CNS_NRT-Survey_2019-2023-COVID.csv"),
 #           row.names = FALSE)

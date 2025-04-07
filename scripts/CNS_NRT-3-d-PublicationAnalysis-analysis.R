@@ -231,7 +231,7 @@ auth_t1 <-
 names(auth_t1)[4] <- "Percent with Publications"
 # Save results
 write.csv(auth_t1, 
-          file=paste0(path_t,"Table12-CNS_NRT-Publications_2018-2024-Group_Stats.csv"),
+          file=paste0(path_t,"table_12-CNS_NRT-Publications_2018-2024-Group_Stats.csv"),
           fileEncoding="UTF-8", row.names=FALSE)
 
 ###### Table 14: CNS NRT Count Co-authorship Relationships, by Role #####
@@ -287,7 +287,7 @@ rels$Growth <- round((rels$Relationships_24-rels$Relationships_21)/rels$Relation
 rels <- rels[,c(1,3,5,2,4,6)]
 # Save results
 write.csv(rels,
-          file=paste0(path_t,"Table14-CNS_NRT-Publications-Coauthorship_Relationships_CT.csv"),
+          file=paste0(path_t,"table_14-CNS_NRT-Publications-Coauthorship_Relationships_CT.csv"),
           fileEncoding="UTF-8", row.names=FALSE)
 
 ###### Table 15: Count of Co-authorship Relationship Pairs #####
@@ -314,7 +314,7 @@ names(rel_pairs) <- c("Co-Authorship Relationship Type","Count (2021)","Percent 
                       "Count (2024)","Percent (2024)","Growth Rate")
 # Save results
 write.csv(rel_pairs,
-          file=paste0(path_t,"Table15-CNS_NRT-Publications-Coauthorship_RelationshipPairs_CT.csv"),
+          file=paste0(path_t,"table_15-CNS_NRT-Publications-Coauthorship_RelationshipPairs_CT.csv"),
           fileEncoding = "UTF-8", row.names = FALSE)
 
 ##### Figures #####
@@ -570,23 +570,8 @@ dev.off()
 # names(auth_t2)[4] <- "Percent with Publications"
 # # Save results
 # write.csv(auth_t2, 
-#           file=paste0(path_si,"Appendix_S5/CNS_NRT-Publications_2018-2021-Group_Stats.csv"),
+#           file=paste0(path_si,"S3_Dataset_CNS_NRT_publication_analysis/S3A_table_CNS_NRT_group_publication_descriptives_2018_2021.csv"),
 #           fileEncoding="UTF8", row.names=FALSE)
-#
-# # Calculates Change in NRT Members (by Role) with publications for 2018-2021 
-# # and 2018 - 2024 - count and percents of authors
-# auth_t3 <- join(auth_t1, auth_t2[,c(1,3,4,5)], by=c("NRT Role"))
-# names(auth_t3)[3:8] <- c("Authors_24","Percent_24","Publications_24",
-#                          "Authors_21","Percent_21","Publications_21")
-# auth_t3$Authors_Change <- auth_t3$Authors_24-auth_t3$Authors_21 
-# auth_t3$Percent_Change <- auth_t3$Percent_24-auth_t3$Percent_21 
-# auth_t3$Publication_Change <- auth_t3$Publications_24-auth_t3$Publications_21 
-# auth_t3 <- 
-#   auth_t3[,c(1,2,6,3,9,7,4,10,8,5,11)]
-# # Save results
-# write.csv(auth_t3,
-#           file=paste0(path_si,"Appendix_S5/CNS_NRT-Publications_2018-2024-Group+Change_Stats.csv"),
-#           fileEncoding="UTF-8", row.names=FALSE)
 #
 # # Calculate the number of publications by journal title.
 # jour <- 
@@ -598,5 +583,5 @@ dev.off()
 #   dplyr::rename("Venue"=Journal) %>%
 #   arrange(desc(Publications))
 # write.csv(jour,
-#           file=paste0(path_si,"Appendix_S6-CNS_NRT-Journals_Publication_CT.csv"),
+#           file=paste0(path_si,"S3_Dataset_CNS_NRT_publication_analysis/S3B_table_CNS_NRT_journal_publication_count.csv"),
 #           fileEncoding = "UTF-8", row.names = FALSE)
