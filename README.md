@@ -31,7 +31,7 @@ Statistical analysis was performed in R and R Studio. Analysis relied on the fol
 * _tidyr_ & _plyr_ were used for data manipulation and munging.
 * _dplyr_ & _reshape2_ for data summarization.
 * _stringr_ was used for string manipulation
-* _bib2d_f was used for conversion of BiBtex files to CSV. 
+* _bib2df_ was used for conversion of BiBtex files to CSV. 
 * _igraph_  was used for creating networks in R.
 * _ggplot2_, _patchwork_, _grid_, & _gridExtra_ were used for data visualization, & _ggnetwork_ was used for network visualizations.
 
