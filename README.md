@@ -1,4 +1,4 @@
-# Preparing the next generation of complex networks and systems scientists: Evaluation results for the complex networks and systems interdisciplinary training program at Indiana University. 
+# Preparing the next generation of complex networks and systems scientists: Evaluation results for the complex networks and systems NSF research training program at Indiana University.
 
 Michael Ginda<sup>1</sup>, Katy Börner<sup>1</sup>, Olga Scrivner<sup>1,2</sup> , William Trochim<sup>3</sup>, Luis Rocha<sup>4</sup>, Selma Šabanović<sup>5</sup>
 
