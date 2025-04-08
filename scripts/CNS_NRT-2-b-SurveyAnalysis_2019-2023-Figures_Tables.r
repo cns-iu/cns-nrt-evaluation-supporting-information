@@ -30,6 +30,7 @@ theme_update(
 
 #### Set Paths ####
 path_s <- paste0(getwd(),"/data/survey/")
+path_a <- paste0(getwd(),"/analysis/surveys/")
 path_t <- paste0(getwd(),"/tables/")
 path_f <- paste0(getwd(),"/figures/")
 path_si <- paste0(getwd(),"/supporting_information/")
@@ -231,6 +232,52 @@ tmp <-
 write.csv(tmp,paste0(path_t,"/table_11-CNS_NRT-Survey_2019-2023-DoctoralFellow_MentorshipQuality.csv"),
           row.names = FALSE)
 rm(tmp)
+
+#### Supplementary Information Survey Data Tables #### 
+##### S2A: CNS NRT Goal Achievement and Satisfaction ####
+S2A <-
+  d_all %>%
+  filter(Group!="COVID") %>%
+  filter(Value!="Not Applicable") %>%
+  group_by(Item,Role) %>%
+  dplyr::summarise(Responses = n(),
+                   Median = round(median(as.numeric(Value)),1),
+                   Mean = round(mean(as.numeric(Value)),1),
+                   SD = round(sd(as.numeric(Value)),2))
+write.csv(S2A,paste0(path_si,"S2A_Table-CNS_NRT-Survey_2019-2023-AchieveProgramGoals.csv"),
+          row.names = FALSE)
+write.csv(S2A,paste0(path_a,"CNS_NRT-Survey_2019-2023-AchieveProgramGoals.csv"),
+          row.names = FALSE)
+
+##### S2C: CNS NRT Covid Impact ####
+S2C  <-
+  d_all %>%
+  filter(Group=="COVID") %>%
+  filter(Value!="Not Applicable") %>%
+  group_by(Role,Year) %>%
+  dplyr::summarise(Responses = n(),
+                   Median = round(median(as.numeric(Value)),1),
+                   Mean = round(mean(as.numeric(Value)),1),
+                   SD = round(sd(as.numeric(Value)),2))
+write.csv(S2C,paste0(path_si,"S2C_Table-CNS_NRT-Survey_2019-2023-COVID.csv"),
+          row.names = FALSE)
+write.csv(S2C,paste0(path_a,"CNS_NRT-Survey_2019-2023-COVID.csv"),
+          row.names = FALSE)
+
+##### S2B: CNS NRT Doctoral Fellow Interdisciplinary Orientation
+S2B <-
+  d_std %>%
+  filter(Group=="Personal Values" | Group=="Academic Research") %>%
+  filter(Value!="Not Applicable") %>%
+  group_by(Group,Item) %>%
+  dplyr::summarise(Responses = n(),
+                   Median = round(median(as.numeric(Value)),1),
+                   Mean = round(mean(as.numeric(Value)),1),
+                   SD = round(sd(as.numeric(Value)),2))
+write.csv(S2B,paste0(path_si,"S2B_Table-CNS_NRT-Survey_2019-2023-DoctoralFellow-InterdisciplinaryOrientation.csv"),
+          row.names = FALSE)
+write.csv(S2B,paste0(path_a,"CNS_NRT-Survey_2019-2023-DoctoralFellow-InterdisciplinaryOrientation.csv"),
+          row.names = FALSE)
 
 #### Figures ####
 ##### Figure 4: CNS NRT Goal Achievement #####
@@ -998,29 +1045,3 @@ png(filename = paste0(path_f,"/png/Fig13.png"),
   p1
 dev.off()
 rm(p1)
-
-#### Appendices #### 
-# CNS NRT Goal Achievement and Satisfaction 
-# appendix_1 <- 
-#   d_all %>% 
-#   filter(Group!="COVID") %>%
-#   filter(Value!="Not Applicable") %>%
-#   group_by(Item,Role) %>% 
-#   dplyr::summarise(Responses = n(),
-#                    Median = round(median(as.numeric(Value)),1),
-#                    Mean = round(mean(as.numeric(Value)),1),
-#                    SD = round(sd(as.numeric(Value)),2))
-# write.csv(tmp,paste0(path_si,"Appendix-CNS_NRT-Survey_2019-2023-AchieveProgramGoals.csv"),
-#           row.names = FALSE)
-# CNS NRT Covid Impact
-# appendix_2 <-
-#   d_all %>%
-#   filter(Group=="COVID") %>%
-#   filter(Value!="Not Applicable") %>%
-#   group_by(Role,Year) %>%
-#   dplyr::summarise(Responses = n(),
-#                    Median = round(median(as.numeric(Value)),1),
-#                    Mean = round(mean(as.numeric(Value)),1),
-#                    SD = round(sd(as.numeric(Value)),2))
-# write.csv(tmp,paste0(path_si,"Appendix-CNS_NRT-Survey_2019-2023-COVID.csv"),
-#           row.names = FALSE)

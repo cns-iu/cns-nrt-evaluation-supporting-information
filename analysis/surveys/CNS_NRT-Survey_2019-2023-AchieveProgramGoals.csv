@@ -1,0 +1,17 @@
+"Item","Role","Responses","Median","Mean","SD"
+"Overall Goals","Faculty",48,5.5,5.4,0.89
+"Overall Goals","Fellow",65,5,4.8,0.88
+"Overall Goals","Affiliate",12,6,5.8,0.45
+"Overall Goals","Admin",19,5,5.2,1.17
+"Disseminate Research","Faculty",54,5,5.2,0.97
+"Disseminate Research","Fellow",63,5,4.5,1.13
+"Disseminate Research","Affiliate",13,6,5.6,0.65
+"Disseminate Research","Admin",15,5,5.4,0.51
+"Local Awareness","Faculty",50,6,5.4,0.96
+"Local Awareness","Fellow",63,5,4.7,1.26
+"Local Awareness","Affiliate",13,6,5.6,0.51
+"Local Awareness","Admin",19,5,5.1,1.13
+"National Awareness","Faculty",48,5,4.9,1.12
+"National Awareness","Fellow",58,4,3.8,1.39
+"National Awareness","Affiliate",9,4,4.6,0.73
+"National Awareness","Admin",15,5,4.1,1.46
