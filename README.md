@@ -28,12 +28,12 @@ Evaulation data is provided in three folders: _"data"_ is used for original data
 ### Code, Libraries, and Data Preparation Tools
 Statistical analysis was performed in R and R Studio. Analysis relied on the following the packages:
 * _magrittr_ was used for piping data frames.
-* _tidyr_ and _plyr_ were used for data manipulation and munging.
+* _tidyr_ & _plyr_ were used for data manipulation and munging.
 * _dplyr_ & _reshape2_ for data summarization.
 * _stringr_ was used for string manipulation
 * _bib2d_f was used for conversion of BiBtex files to CSV. 
 * _igraph_  was used for creating networks in R.
-* _ggplot2_, _patchwork_, _grid_, _gridExtra_ were used for data visualization, & _ggnetwork_ was used for network visualizations.
+* _ggplot2_, _patchwork_, _grid_, & _gridExtra_ were used for data visualization, & _ggnetwork_ was used for network visualizations.
 
 Additional data preparation tools used include:
 * _Endnote x20_ was used to manage publication data collected from NSF Reporter, Google Scholar, and Web of Science.
